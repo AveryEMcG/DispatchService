@@ -1,3 +1,13 @@
+
+"""Message_Types
+This module provides 2 main services:
+
+* Provides definitions of data packets which can be used to communicate across queues.
+* Defines generic error messages which can be used to indicate specific failure states.
+
+"""
+
+
 ERROR_UNSUPPORTED_EVENT = "Unsupported event type given"
 ERROR_UNSUPPORTED_OUTPUT_TYPE = "Unsupported output type given"
 

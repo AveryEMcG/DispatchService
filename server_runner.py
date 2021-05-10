@@ -1,3 +1,13 @@
+
+"""Server_Runner
+
+This script does the necessary steps to set up the dispatch service on a single machine. 
+
+* Sets up the communication queues
+* Assigns tasks which listen to their corresponding queues
+* Launches the HTTP server which listens for user events
+
+"""
 import server
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
@@ -6,7 +16,9 @@ import multiprocessing
 import message_types
 from functools import partial
 import loggers
-workers = 3
+
+workers = 3 # value arbitrarily chosen to test parallelism
+
 def setupWorkerTasks():
 
     # Establish communication queues
@@ -24,16 +36,16 @@ def setupWorkerTasks():
     # Start event Handlers
     print('Creating %d event handlers' % workers)
 
-    event_workers = [ processors.EventProcessor(queues)
-                  for i in range(workers) ]
+    #make an arbitrary amount of event processors
+    event_workers = [ processors.EventProcessor(queues)for i in range(workers) ]
     for e in event_workers:
         e.start()
 
     # Start Output Handlers
     print('Creating %d output handlers' % workers)
 
-    output_workers = [ processors.OutputProcessor(queues)
-                  for i in range(workers) ]
+    #make an arbitrary amount of output processors
+    output_workers = [ processors.OutputProcessor(queues) for i in range(workers) ]
     for o in output_workers:
         o.start()
 
