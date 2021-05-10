@@ -1,0 +1,56 @@
+--------------
+output_logger: 10:23:12.804054 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 10:23:12.804898 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+
+--------------
+output_logger: 10:35:41.008119 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 10:35:41.008940 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+
+--------------
+output_logger: 10:38:55.944305 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 10:38:55.944974 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+
+--------------
+output_logger: 10:44:01.852666 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 10:44:01.853795 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+
+--------------
+output_logger: 10:44:38.238397 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 10:44:38.239406 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+
+--------------
+output_logger: 13:02:14.929074 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 13:02:14.929906 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+
+--------------
+output_logger: 13:10:09.753390 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example1@example.com')
+
+--------------
+output_logger: 13:10:09.754136 - May 10 2021
+Data: {'start_time': '08/27/2019 21:04', 'end_time': '08/27/2019 22:04', 'program_id': 1, 'event_type': 'market_dispatch'}output info: ('Email', 'example2@example.com')
+

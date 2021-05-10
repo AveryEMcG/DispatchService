@@ -10,7 +10,10 @@ This module provides 2 main services:
 
 ERROR_UNSUPPORTED_EVENT = "Unsupported event type given"
 ERROR_UNSUPPORTED_OUTPUT_TYPE = "Unsupported output type given"
+ERROR_UNVERIFIED_USER_REQUEST = "User did not pass verification check"
+ERROR_INVALID_DATA_TO_API = "User request to API was invalid"
 
+TERMINATE_MESSAGE = 0
 
 class Event_Data_Packet():
     def __init__(self, data):

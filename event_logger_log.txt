@@ -1,0 +1,28 @@
+--------------
+event_logger: 10:23:12.801937 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
+--------------
+event_logger: 10:35:40.993869 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
+--------------
+event_logger: 10:38:55.942830 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
+--------------
+event_logger: 10:44:01.851179 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
+--------------
+event_logger: 10:44:38.236717 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
+--------------
+event_logger: 13:02:14.918411 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
+--------------
+event_logger: 13:10:09.751932 - May 10 2021
+Data: {"start_time":"08/27/2019 21:04", "end_time":"08/27/2019 22:04",   "program_id":1, "event_type":"market_dispatch"}
+
