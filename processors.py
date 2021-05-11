@@ -110,8 +110,11 @@ class OutputProcessor(multiprocessing.Process):
         """Send e-mail to specified recipient"""
 
         #TODO: Actually send the e-mail :)
-        print("\n Send E-mail to: "+output.output_info[1]+" with message contents: \n "+self.generate_output_text(output))
-
+        with open("emails.txt","a") as fp:
+            output_message = "--------------\n"
+            output_message+="\n Send E-mail to: "+output.output_info[1]+" with message contents: \n "+self.generate_output_text(output)
+            print(output_message,file=fp) 
+            
     def run(self):
         """Run the task. Necessary for mutiprocessor code."""
 

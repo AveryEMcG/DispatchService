@@ -17,9 +17,8 @@ class GenericLogger(multiprocessing.Process):
             if message == message_types.TERMINATE_MESSAGE:
                 print("Terminating logger task")
                 self.queue_in.task_done()
-
                 return
-            
+    
             self.log(message)
             self.queue_out.put(message)
             self.queue_in.task_done()

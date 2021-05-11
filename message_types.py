@@ -7,7 +7,6 @@ This module provides 2 main services:
 
 """
 
-
 ERROR_UNSUPPORTED_EVENT = "Unsupported event type given"
 ERROR_UNSUPPORTED_OUTPUT_TYPE = "Unsupported output type given"
 ERROR_UNVERIFIED_USER_REQUEST = "User did not pass verification check"
@@ -36,4 +35,4 @@ class Error_data_packet():
         self.error_message = error_message
 
     def get_string(self):
-        return "Data: "+str(self.data)+ "output info: "+str(self.output_info)
+        return "Data: "+str(self.data)+ "error info: "+str(self.error_message)

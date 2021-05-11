@@ -57,7 +57,7 @@ def setupWorkerTasks():
     output_logger.start()
     tasks.append(output_logger)    
 
-    error_logger = loggers.GenericLogger(error_queue_in,error_queue_out,"error_log")
+    error_logger = loggers.GenericLogger(error_queue_in,error_queue_out,"error_logger")
     error_logger.start()
     tasks.append(output_logger)        
 
